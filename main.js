@@ -1,5 +1,5 @@
 var status = "";
-var objecct = [];
+var object = [];
 var objectDetector = "";
 
 function preload() {
@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-    image(video, 0, 0, 600, 500);
+    image(video, 0, 0, 600,450);
     if (status != "") {
         r = random(255);
         g = random(255);
