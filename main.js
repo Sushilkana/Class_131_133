@@ -24,7 +24,7 @@ function draw() {
         g = random(255);
         b = random(255);
         objectDetector.detect(video, gotresult);
-        for (var i = 0; i <= object.length; i++) {
+        for (i = 0; i <= object.length; i++) {
             document.getElementById("status").innerHTML = "Status: Detected Objects";
             document.getElementById("nameofobject").innerHTML = object.lenght;
 
